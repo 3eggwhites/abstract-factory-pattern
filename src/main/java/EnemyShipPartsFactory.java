@@ -1,6 +1,6 @@
 package main.java;
 
-public interface EnemyShipFactory {
+public interface EnemyShipPartsFactory {
 
     IESEngine addEngine();
 

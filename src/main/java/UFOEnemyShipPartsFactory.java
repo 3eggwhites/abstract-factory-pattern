@@ -1,6 +1,6 @@
 package main.java;
 
-public class UFOEnemyShipFactory implements EnemyShipFactory{
+public class UFOEnemyShipPartsFactory implements EnemyShipPartsFactory {
     @Override
     public IESEngine addEngine() {
         return new ESEngine();

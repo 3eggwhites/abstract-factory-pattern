@@ -2,17 +2,17 @@ package main.java;
 
 public class UFOEnemyShip extends EnemyShip{
 
-    EnemyShipFactory shipFactory;
+    EnemyShipPartsFactory shipPartsFactory;
 
-    public UFOEnemyShip(EnemyShipFactory factory) {
-        this.shipFactory = factory;
+    public UFOEnemyShip(EnemyShipPartsFactory factory) {
+        this.shipPartsFactory = factory;
     }
 
     @Override
     void makeShip() {
         System.out.println("Making enemy ship "+ getName());
 
-        weapon = shipFactory.addGun();
-        engine = shipFactory.addEngine();
+        weapon = shipPartsFactory.addGun();
+        engine = shipPartsFactory.addEngine();
     }
 }
