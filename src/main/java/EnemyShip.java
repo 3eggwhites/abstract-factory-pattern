@@ -2,7 +2,6 @@ package main.java;
 
 public abstract class EnemyShip {
 
-   // testing signed commit
     private String name;
     IESWeapon weapon;
     IESEngine engine;
